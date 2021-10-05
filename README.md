@@ -4,10 +4,10 @@ Creating Database for Maknyus Restaurant using SQL and Java.
 Pada Restaurant Maknyus, persediaan bahan baku dan transaksi belum diarsipkan secara terperinci. Selain itu sistem pengelolaan menu pesanan pelanggan juga masih dicatat dalam nota pesanan kemudian diberikan kepada bagian dapur dan kasir untuk dilakukan proses pengolahan hidangan dan rekapitulasi tagihan (Manual).
 
 1.	Membuat sistem basis data berdasarkan studi kasus yang ada.
-2.	Mengimplementasikan DDL, DML, Join, Operator, Grouping, Union, Intersection, Subquery, Transaction, 3.4.8	Pemrograman Database T-SQL.
+2.	Mengimplementasikan DDL, DML, Join, Operator, Grouping, Union, Intersection, Subquery, Transaction, Pemrograman Database T-SQL.
 7.	Menghubungkan database yang telah dibuat dengan SQL server ke java.
 
-Entitas  terdiri dari : 
+Entitas terdiri dari :
 1.	Pegawai
 2.	Meja
 3.	Pemesan_Antar
@@ -20,16 +20,16 @@ Entitas  terdiri dari :
 10.	Penjualan
 
 Atribut terdiri dari :
-•	Pegawai : ID_P, Nama_P, Alamat_P, Email_P, Telepon_P, JobDesk, Gaji
-•	Meja : Nomor_Meja, M_Kuota, Lantai
-•	Pemesan_Antar : P_No, P_nama, P_Alamat, P_Telepon
-•	Stock_Bahan : Kode_Bahan, NamaBahan, JumlahBahan
-•	Pembelian : StrukBeli, WaktuBeli, TotalBeli, ID_Supplier
-•	Supplier : ID_Supplier, Nama_Supplier, Alamat_Supplier, Email_Supplier, Telepon_Supplier
-•	Reservasi_Meja : R_ID, R_Nama, R_Waktu, R_Kuota
-•	Minuman : ID_Minuman, Harga_Minuman, Nama_Minuman
-•	Makanan : ID_Makanan, Harga_Makanan, Nama_Makanan
-•	Penjualan : StrukJual, WaktuJual, J_HargaTotal
+1. Pegawai : ID_P, Nama_P, Alamat_P, Email_P, Telepon_P, JobDesk, Gaji
+2. Meja : Nomor_Meja, M_Kuota, Lantai
+3. Pemesan_Antar : P_No, P_nama, P_Alamat, P_Telepon
+4. Stock_Bahan : Kode_Bahan, NamaBahan, JumlahBahan
+5.	Pembelian : StrukBeli, WaktuBeli, TotalBeli, ID_Supplier
+6. Supplier : ID_Supplier, Nama_Supplier, Alamat_Supplier, Email_Supplier, Telepon_Supplier
+7. Reservasi_Meja : R_ID, R_Nama, R_Waktu, R_Kuota
+8. Minuman : ID_Minuman, Harga_Minuman, Nama_Minuman
+9. Makanan : ID_Makanan, Harga_Makanan, Nama_Makanan
+10. Penjualan : StrukJual, WaktuJual, J_HargaTotal
 
 Relasi terdiri dari : unary,  binary, ternary
 
