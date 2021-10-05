@@ -1,4 +1,4 @@
-# Creating-Database-for-Maknyus-Restaurant
+# Creating Database for Maknyus Restaurant
 Creating Database for Maknyus Restaurant using SQL and Java.
 
 Pada Restaurant Maknyus, persediaan bahan baku dan transaksi belum diarsipkan secara terperinci. Selain itu sistem pengelolaan menu pesanan pelanggan juga masih dicatat dalam nota pesanan kemudian diberikan kepada bagian dapur dan kasir untuk dilakukan proses pengolahan hidangan dan rekapitulasi tagihan (Manual).
